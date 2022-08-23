@@ -1,0 +1,33 @@
+{
+  "name": "@component/ofac-modal",
+  "version": "0.1.0",
+  "description": "Modal that blocks ofac sdn accounts from interacting",
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "scripts": {
+    "tsc": "tsc",
+    "rollup": "rollup -c"
+  },
+  "files": [
+    "dist"
+  ],
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "@chakra-ui/react": "^2.2.8",
+    "react": "^18.2.0"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^22.0.2",
+    "@rollup/plugin-node-resolve": "^13.3.0",
+    "@rollup/plugin-typescript": "^8.3.4",
+    "@types/react": "^18.0.17",
+    "postcss": "^8.4.16",
+    "rollup": "^2.78.1",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-postcss": "^4.0.2",
+    "rollup-plugin-terser": "^7.0.2",
+    "typescript": "^4.7.4"
+  },
+  "types": "dist/index.d.ts"
+}
