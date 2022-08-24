@@ -3,7 +3,7 @@ import {
     ModalContent,
     ModalHeader,
     ModalOverlay,
-} from "@chakra-ui/modal";
+} from "@chakra-ui/core";
 import { useOfac } from "../utils/isBanned";
 import React from "react";
 
